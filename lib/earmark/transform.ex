@@ -8,7 +8,7 @@ defmodule Earmark.Transform do
 
   @type node_or_string() :: Earmark.ast_node() | String.t()
 
-  @compact_tags ~w[a code em strong del]
+  @compact_tags ~w[a code em strong del span]
   # https://www.w3.org/TR/2011/WD-html-markup-20110113/syntax.html#void-element
   @void_elements ~W(area base br col command embed hr img input keygen link meta param source track wbr)
 
